@@ -14,6 +14,9 @@ p, a, h3 {
 h1 {
    font-family: var(--default-header-font)
 }
+h1, h2, h3 {
+    font-weight: bold;
+}
 p {
     font-size: 16px;
     line-height: 30px;
@@ -26,7 +29,6 @@ p {
 }
 .hero h1 {
   font-size: 96px;
-  font-weight: bold;
 }
 
 .hero h2 {
@@ -35,13 +37,11 @@ p {
 
 .hero h3 {
   font-size: 24px;
-  font-weight: bold;
   font-family: var(--default-header-font)
 }
 .project-description h2 {
     font-family: var(--default-header-font);
     font-size: 64px;
-    font-weight: bold;
 }
 .hero .navigation-links {
   display: flex;
@@ -86,16 +86,13 @@ p {
 .about-box {
     padding: 80px;
 }
-.about-section h1 {
+.about-section h1, .content h1 {
     font-size: 64px;
     line-height: 70px;
 }
 .about-section h2 {
     font-size: 18px;
     font-family: var(--default-body-font);
-}
-.about-section p {
-    text-align: justify;
 }
 .about-section a {
     text-decoration: none;
@@ -115,7 +112,10 @@ p {
 .work-inquiry h3 {
     font-family: var(--default-header-font);
     font-size: 48px;
-    font-weight: bold;
+}
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
 }
 @media (max-width: 900px) {
   .hero h1 {
