@@ -113,6 +113,9 @@ p {
     font-family: var(--default-header-font);
     font-size: 48px;
 }
+.content {
+    text-align: center;
+}
 .content h3 {
     font-size: 24px;
     line-height: 1.5;
