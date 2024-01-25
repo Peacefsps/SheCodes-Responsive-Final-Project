@@ -39,9 +39,9 @@ p {
   font-size: 24px;
   font-family: var(--default-header-font)
 }
-.project-description h2 {
+.project-des h2 {
     font-family: var(--default-header-font);
-    font-size: 64px;
+    font-size: 48px;
 }
 .hero .navigation-links {
   display: flex;
@@ -113,12 +113,39 @@ p {
     font-family: var(--default-header-font);
     font-size: 48px;
 }
+.footer {
+    text-align: center;
+}
 .content {
     text-align: center;
 }
 .content h3 {
     font-size: 24px;
     line-height: 1.5;
+}
+.logo {
+    max-height: 40px;
+}
+nav {
+    padding: 20px 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover, nav li.active a {
+    color: var(--primary-color);
 }
 @media (max-width: 900px) {
   .hero h1 {
@@ -127,11 +154,14 @@ p {
   .hero h2 {
     font-size: 32px;
   }
-  body h2 {
+  .project-des {
+    text-align: center;
+  }
+  .project-des h2 {
     font-size: 32px;
     text-align: center;
   }
-  body p {
+  .project-des p {
     text-align: center;
   }
   .button-link {
@@ -148,5 +178,8 @@ p {
   .about-img {
     display: block;
     margin: 20px auto;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
