@@ -113,15 +113,15 @@ p {
     font-family: var(--default-header-font);
     font-size: 48px;
 }
-.footer {
-    text-align: center;
-}
 .content {
     text-align: center;
 }
 .content h3 {
     font-size: 24px;
     line-height: 1.5;
+}
+.mid-head {
+    font-size: 18px;
 }
 .logo {
     max-height: 40px;
@@ -146,6 +146,27 @@ nav a {
 }
 nav a:hover, nav li.active a {
     color: var(--primary-color);
+}
+.footer-email {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.footer-email:hover {
+    color: var(--primary-color);
+}
+.social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+    color: white;
+    background-color: var(--primary-color);
 }
 @media (max-width: 900px) {
   .hero h1 {
@@ -181,5 +202,14 @@ nav a:hover, nav li.active a {
   }
   nav a {
     font-size: 14px;
+  }
+  .work-inquiry {
+    margin: 18px;
+  }
+  .work-inquiry h3 {
+    font-size: 32px;
+  }
+  .footer-email {
+    font-size: 18px;
   }
 }
